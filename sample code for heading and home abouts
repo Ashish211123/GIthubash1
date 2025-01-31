@@ -1,0 +1,28 @@
+<style>
+  nav {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  h1 {
+    display: inline-block;
+    margin: 20px;
+  }
+  ul,
+  h1,
+  li {
+    display: inline;
+  }
+  ul {
+    margin-left: 80%;
+    padding left: 10px;
+  }
+</style>
+<nav>
+  <h1>Ashish</h1>
+  <ul>
+    <u><li>home</li></u>
+    <u><li>about</li></u>
+    <u><li>contact</li></u>
+  </ul>
+</nav>
