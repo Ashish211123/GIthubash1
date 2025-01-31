@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>biss Bakery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="bliss bakery.png" />
+  </head>
+  <body>
+    <div class="Heading">
+      <nav>
+        <img src="bliss bakery.png" width="40x" />
+        <h1>Bliss bakery</h1>
+        <ul>
+          <u><li>Home |</li></u>
+          <u><li>Product |</li></u>
+          <u><li>About |</li></u>
+          <u><li>Contact |</li></u>
+        </ul>
+      </nav>
+    </div>
+    <div class="searchbar">
+      <input placeholder="🔍Search" />
+    </div>
+    <div class="product"></div>
+    <div class="about"></div>
+    <div class="contact"></div>
+  </body>
+</html>
