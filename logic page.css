@@ -1,0 +1,117 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f4f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("bg\ login\ 2.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: #f0f4f7;
+  opacity: 0.9;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #0056b3;
+  width: auto;
+  height: auto;
+}
+
+.login-box {
+  background-color: transparent;
+  border-color: rgb(91, 69, 69);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+  border-radius: 35px;
+  opacity: 1.5;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: white;
+  opacity: 1;
+}
+
+.textbox {
+  margin-bottom: 50px;
+  position: relative;
+  width: 50;
+  height: 30px;
+}
+.textbox input {
+  width: 100%;
+  height: 45px;
+  padding: 15px;
+  font-size: 16px;
+  border: 3px solid #f0eaea;
+  border-radius: 15px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  opacity: 0.5;
+}
+
+.textbox input:focus {
+  border-color: #007bff;
+  opacity: 0.8;
+}
+
+.checkbox {
+  text-align: left;
+  margin-bottom: 20px;
+  color: white;
+  opacity: 0.8;
+}
+
+.checkbox input {
+  margin-right: 10px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.links {
+  margin-top: 15px;
+}
+
+.links a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
