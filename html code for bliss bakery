@@ -6,22 +6,44 @@
     <title>biss Bakery</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="bliss bakery.png" />
+    <style>
+      body {
+        background-image: url("font\ background.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
   </head>
   <body>
     <div class="Heading">
       <nav>
-        <img src="bliss bakery.png" width="40x" />
-        <h1>Bliss bakery</h1>
+        <b><h1 class="top">BLISS BAKERY</h1></b>
         <ul>
-          <u><li>Home |</li></u>
-          <u><li>Product |</li></u>
-          <u><li>About |</li></u>
-          <u><li>Contact |</li></u>
+          <a href="#"
+            ><li><u>HOME</u></li></a
+          >
+          <a href="#"
+            ><li><u>PRODUCT</li></u></a
+          >
+          <a href="#"
+            ><li><u>ABOUT</li></u></a
+          >
+          <a href="#"
+            ><li><u>CONTACT</li></u></a
+          >
+          <a href="login.html">
+            <li>LOGIN</li></a>
         </ul>
       </nav>
     </div>
     <div class="searchbar">
-      <input placeholder="🔍Search" />
+      <input type="text" name="" placeholder="🔍Search..." />
+    </div>
+    <div class="content">
+      <h1 class="inside content">GET HOOKED ON OUR COOKIES:</h1>
+      <p class="par">A marketing phrase used to imply that a bakery or cookie company's<br> cookies are so delicious and irresistible that once you try them, you'll likely <br>crave them repeatedly and become "hooked" on their taste.</p><br>
+      <button class="join"><a href="#"><b>ORDER NOW</b></a></button>
     </div>
     <div class="product"></div>
     <div class="about"></div>
