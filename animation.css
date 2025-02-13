@@ -1,0 +1,23 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: chartreuse;
+  animation-name: box-animation;
+  animation-duration: 5s;
+  position: relative;
+  left: 220px;
+  top: 20px;
+}
+@keyframes box-animation {
+  from {
+    background-color: blue;
+    left: 220px;
+    top: 20px;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+.box:hover {
+  background-color: red;
+}
